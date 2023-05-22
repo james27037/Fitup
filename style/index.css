@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;300;400;500;600&family=Roboto&display=swap');
+
+*{
+    font-family: 'Poppins',sans-serif;
+}
+
+:root{
+    --section-font-size: 2.5rem;
+    --section-color: #000;
+}
+
+.nav-link {
+    color: #f1eaeaf1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+nav{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* header {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+} */
+
+.carousel-item{
+    height: 35rem;
+    width: 100%;
+}
+
+.carousel-item img{
+    height: 39rem;
+    filter: brightness(70%);
+}
+
+/* .container{
+    position: relative;
+    top: 700px;
+    width: 100%;
+} */
+
+section{
+    /* position: relative; */
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    /* width: 100%; */
+}
+
+section h2{
+    font-size: var(--section-font-size);
+    color: var(--section-color);
+}
+
+.pourquoi .col-12 {
+    padding: 20px;
+    margin: 5%;
+    width: 90%;
+}
+
+.dir-image{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.list-y{
+    background: url(/images/strong-man-training-gym1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 0 0 0;
+}
+
+.list-y-title{
+    text-align: center;
+    align-self: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.list-scroll{
+    display: flex;
+    width: 99%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    margin: auto;
+}
+
+.list-scroll::-webkit-scrollbar{
+    display: hidden;
+    background: rgba(100, 100, 100, 0.6);
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.list-scroll::-webkit-scrollbar-button{
+    background-color: rgba(228, 218, 218, 0.856);
+    border-radius: 2px;
+    padding: 7px;
+}
+
+.list-scroll::-webkit-scrollbar-thumb{
+    background-color: rgba(228, 218, 218, 0.5);
+    width: 50%;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.list-scroll:hover:-webkit-scrollbar{
+    display: block;
+}
+
+iframe{
+    width: 400px;
+    height: 460px;
+}
+
+@media screen and (max-width:980px) {
+    .carousel-item{
+        height: 30.7rem;
+        width: 100%;
+    }
+    .pourquoi .col-12 {
+        padding: 20px;
+        width: 90%;
+    }
+    iframe{
+        width: 450px;
+        height: 360px;
+    }
+    .list-y-title{
+        text-align: center;
+        align-self: center;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .carousel-item{
+        height: 20.7rem;
+        width: 100%;
+    }
+    .pourquoi .col-12 {
+        padding: 20px;
+        width: 90%;
+    }
+    iframe{
+        width: 100%;
+        height: 260px;
+    }
+    .list-y-title{
+        text-align: center;
+        align-self: center;
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+    }
+}
